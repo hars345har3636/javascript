@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button id="search-btn">Search</button>
+        <div id="weather-info">
+            <h2 id="location"></h2>
+            <p id="date-time"></p>
+            <p id="current-weather"></p>
+        </div>
+        <canvas id="forecast-chart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
